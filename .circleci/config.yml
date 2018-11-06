@@ -1,0 +1,13 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:3.7.1
+    steps:
+      # シェルスクリプトのコマンド実行
+      - run: |
+              pip install pytest
+              pytest
+      - store_test_results:
+              path: test-results
+
