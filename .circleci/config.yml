@@ -6,7 +6,7 @@ jobs:
     steps:
       # シェルスクリプトのコマンド実行
       - run: |
-              python3.7.1 -m venv venv
+              python -m venv venv
               source ./venv/bin/activate
               pip install pytest
               pytest
