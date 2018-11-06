@@ -10,6 +10,6 @@ jobs:
               source ./venv/bin/activate
               pip install pytest
               pytest
-      - store_test_results:
-              path: test-results
+              # store_test_results:
+              # path: test-results
 
