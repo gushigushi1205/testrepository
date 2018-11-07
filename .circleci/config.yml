@@ -4,6 +4,7 @@ jobs:
     docker:
       - image: circleci/python:3.7.1
     steps:
+            - checkout
       # シェルスクリプトのコマンド実行
       - run: |
               python -m venv venv
