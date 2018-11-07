@@ -8,9 +8,9 @@ class TestSample(unittest.TestCase):
         self.assertEqual(result,'fizzbuzz')
 
     def test_fizzbuzz2(self):
-        result = samplefizzbuzz(5)
+        result = sample.fizzbuzz(5)
         self.assertEqual(result,'cas')
 
     def test_fizzbuzz3(self):
-        result = samplefizzbuzz(4)
+        result = sample.fizzbuzz(4)
         self.assertEqual(result,'cas')
