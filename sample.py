@@ -6,4 +6,4 @@ def fizzbuzz(num):
     elif num % 5 == 0:
         return 'buzz'
     else:
-        return 'cas'
+        return 'cascas'
